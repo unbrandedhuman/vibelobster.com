@@ -4,12 +4,32 @@
   justify-content: space-between;
   flex-grow: 1;
 }
-
 .discover-main-section .covers-image {
   width: 30vw;
   margin-left: 2rem;
   height: auto;
   max-width: 350px;
+}
+
+.product-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 25px 50px 75px;
+}
+.product-section .covers-image {
+  width: 30vw;
+  height: auto;
+  max-width: 350px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+  align-self: center;
 }
 
 .icon-section {
